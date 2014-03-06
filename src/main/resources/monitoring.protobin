@@ -1,0 +1,17 @@
+
+ç
+main/resources/monitoring.proto org.gterral.infinispan.test.data"¡
+MonitoringMessage
+
+id (	
+	timestamp (
+interfaceId (	
+routeId (	
+nodeId (	
+correlationId (	
+status (	
+body (	S
+fields	 (2C.org.gterral.infinispan.test.data.MonitoringMessage.MonitoringField-
+MonitoringField
+key (	
+value (	

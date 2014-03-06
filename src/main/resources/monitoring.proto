@@ -1,0 +1,27 @@
+package org.gterral.infinispan.test.data;
+
+message MonitoringMessage {
+
+   required string id = 1;
+
+   required int64 timestamp = 2;
+   
+   required string interfaceId = 3;
+   
+   required string routeId = 4;
+   
+   required string nodeId = 5;
+   
+   required string correlationId = 6;
+   
+   required string status = 7;
+
+   required string body = 8;
+
+   message MonitoringField {
+      required string key = 1;
+      required string value = 2;
+   }
+
+   repeated MonitoringField fields = 9;
+}
