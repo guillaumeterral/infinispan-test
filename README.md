@@ -10,7 +10,7 @@ Usage
  1. compile the whole project by doing at the root of the repo: *42sh>mvn clean install*
  2. retrieve the installation zip under: *target/infinispan-test-client-server.zip*
  3. *unzip* it where you want to run your processes
- 4. move to the the *bin* directory in your unzipped folder
+ 4. navigate to the the *bin* directory in your unzipped folder
 
 **Start the servers and clients**
 
